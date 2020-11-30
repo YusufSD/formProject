@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Fırat Universitesi</title>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <nav class="mnb navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+          aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <i class="ic fa fa-bars"></i>
+        </button>
+        
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">En</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">Draude Oba <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Settings</a></li>
+              <li><a href="#">Upgrade</a></li>
+              <li><a href="#">Help</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Logout</a></li>
+            </ul>
+          </li>
+          <li><a href="#"><i class="fa fa-bell-o"></i></a></li>
+          <li><a href="#"><i class="fa fa-comment-o"></i></a></li>
+        </ul>
+        <form  class="navbar-form navbar-right">
+          <input type="text" class="form-control" placeholder="Search...">
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!--msb: main sidebar-->
+  <div class="msb" id="msb">
+    <nav class="navbar navbar-default" role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <div class="brand-wrapper">
+          <!-- Brand -->
+          <div class="brand-name-wrapper">
+            <a class="navbar-brand" href="#">
+              Fırat Universitesi
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Main Menu -->
+      <div class="side-menu-container">
+        <ul class="nav navbar-nav">
+
+          <li><a href="#"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+          <li class="active"><a href="#"><i class="fa fa-puzzle-piece"></i> Components</a></li>
+          <li><a href="#"><i class="fa fa-heart"></i> Extras</a></li>
+
+          <!-- Dropdown-->
+          <li class="panel panel-default" id="dropdown">
+            <a data-toggle="collapse" href="#dropdown-lvl1">
+              <i class="fa fa-diamond"></i> Apps
+              <span class="caret"></span>
+            </a>
+            <!-- Dropdown level 1 -->
+            <div id="dropdown-lvl1" class="panel-collapse collapse">
+              <div class="panel-body">
+                <ul class="nav navbar-nav">
+                  <li><a href="#">Mail</a></li>
+                  <li><a href="#">Calendar</a></li>
+                  <li><a href="#">Ecommerce</a></li>
+                  <li><a href="#">User</a></li>
+                  <li><a href="#">Social</a></li>
+
+                  <!-- Dropdown level 2 -->
+                  <li class="panel panel-default" id="dropdown">
+                    <a data-toggle="collapse" href="#dropdown-lvl2">
+                      <i class="glyphicon glyphicon-off"></i> Sub Level <span class="caret"></span>
+                    </a>
+                    <div id="dropdown-lvl2" class="panel-collapse collapse">
+                      <div class="panel-body">
+                        <ul class="nav navbar-nav">
+                          <li><a href="#">Link</a></li>
+                          <li><a href="#">Link</a></li>
+                          <li><a href="#">Link</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li><a href="#"><span class="glyphicon glyphicon-signal"></span> Link</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </nav>
+  </div>
+  <!--main content wrapper-->
+
+
+  <div class="row">
+
+    <!-- Sidebar -->
+    <div class="text-justify col-md-2">
+
+
+
+    </div><!-- /Sidebar -->
+
+    <!-- Main Content -->
+    <div class="col-xs-12 col-lg-9 col-sm-9 col-md-9">
+
+      </br>
+
+
+
+      <div class="alert alert-info" role="alert">
+        <h4 style="text-align: center;">FIRAT UNİVERSİTESİ</h4>
+        <h5 style="text-align: center;">Fen Bilimleri Enstitusu</h5>
+        <p style="text-align: center;">Yuksek Lisans Tez Konusu Öneri Formu</p>
+      </div>
+
+      <div class="alert alert-info" role="alert">
+
+        <div style="margin-left: 300px;" >
+
+          <select style=" width: 500px;" class="form-control">
+            <option value="1">ADLİ BİLİŞİM MÜHENDİSLİĞİ</option>
+                <option value="2">BİLGİSAYAR MÜHENDİSLİĞİ</option>
+                <option value="3">BİYOLOJİ</option>
+                <option value="4">BİYOMÜHENDİSLİK</option>
+                <option value="5">BİYOTEKNOLOJİ</option>
+                <option value="6">ÇEVRE MÜHENDİSLİĞİ</option>
+                <option value="7">EKOBİLİŞİM</option>
+                <option value="8">ELEKTRİK ELEKTRONİK MÜHENDİSLİĞİ</option>
+                <option value="9">ELEKTRİK ELEKTRONİK MÜHENDİSLİĞİ TEKNOLOJİLERİ</option>
+                <option value="10">ENERJİ SİSTEMLERİ MÜHENDİSLİĞİ</option>
+                <option value="11">FİZİK</option>
+                <option value="12">İNŞAAT MÜHENDİSLİĞİ</option>
+                <option value="13">İNŞAAT MÜHENDİSLİĞİ TEKNOLOJİLERİ</option>
+                <option value="14">İSTATİSTİK</option>
+                <option value="15">İŞ VE MÜHENDİSLİK YÖNETİMİ</option>
+                <option value="16">JEODEZİ ve COĞRAFİ BİLGİ TEKNOLOJİLERİ</option>
+                <option value="17">JEOLOJİ MÜHENDİSLİĞİ</option>
+                <option value="18">KİMYA</option>
+                <option value="19">KİMYA MÜHENDİSLİĞİ</option>
+                <option value="20">MAKİNE MÜHENDİSLİĞİ</option>
+                <option value="21">MAKİNE MÜHENDİSLİĞİ TEKNOLOJİLERİ</option>
+                <option value="22">MATEMATİK</option>
+                <option value="23">MEKATRONİK MÜHENDİSLİĞİ</option>
+                <option value="24">METALURJİ VE MALZEME MÜHENDİSLİĞİ</option>
+                <option value="25">METALURJİ VE MALZEME MÜHENDİSLİĞİ TEKNOLOJİLERİ</option>
+                <option value="26">MİMARLIK</option>
+                <option value="27">OTOMOTİV MÜHENDİSLİĞİ</option>
+                <option value="28">SAVUNMA TEKNOLOJİLERİ</option>
+                <option value="29">SU ÜRÜNLERİ AVLANMA VE İŞLEME TEKNOLOJİSİ</option>
+                <option value="30">SU ÜRÜNLERİ TEMEL BİLİMLER</option>
+                <option value="31">SU ÜRÜNLERİ YETİŞTİRİCİLİĞİ</option>
+                <option value="32">YAZILIM MÜHENDİSLİĞİ</option>
+                <option value="33">ELEKTRİK EĞİTİMİ</option>
+                <option value="34">ELEKTRONİK VE BİLGİSAYAR EĞİTİMİ</option>
+                <option value="35">MAKİNE EĞİTİMİ</option>
+                <option value="36">METALURJİ EĞİTİMİ</option>
+                <option value="37">YAPI EĞİTİMİ</option>
+          </select>
+
+        </div>
+
+
+      </div>
+
+      <form>
+        <div class="row">
+          <div class="col-lg-6 col-xs-12 col-sm-6">
+            <div class="form-group">
+              <label>Ad</label>
+              <input type="text" class="form-control" placeholder="Ad">
+            </div>
+          </div>
+
+          <div class="col-lg-offset-0 col-lg-6 col-xs-12 col-sm-6">
+            <div class="form-group">
+              <label>Soyad</label>
+              <input type="text" class="form-control" placeholder="Soyad">
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-xs-12 col-sm-6">
+            <div class="form-group">
+              <label>Öğrenci No</label>
+              <input type="text" class="form-control" placeholder="Öğrenci No">
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-xs-12 col-sm-6">
+            <div class="form-group">
+              <label>Bilim Dalı</label>
+              <input type="text" class="form-control" placeholder="Bilim Dalı">
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-xs-12 col-sm-6">
+            <div class="form-group">
+              <label>Danışman</label>
+              <input type="text" class="form-control" placeholder="Danışman">
+            </div>
+          </div>
+          </br>
+
+
+
+          <div class="col-lg-offset-0 col-lg-3 col-xs-12 col-sm-12">
+            <div class="form-group">
+              <label for="Gender" class="select">TEZ KONUSU</label>
+              <select class="form-control">
+                <option>Tez Konusu</option>
+                <option>İlk Teklif </option>
+                <option>Değişiklik</option>
+              </select>
+            </div>
+          </div>
+
+
+          <div class="col-lg-6 col-xs-12 col-sm-6">
+            <label>Tez Balığı</label>
+            <div class="form-group">
+
+              <textarea style="max-width: 550px; max-height: 100px; min-width: 550px; min-height: 100px;"
+                class="form-control" placeholder="sdfsdf" rows="5">
+
+           </textarea>
+            </div>
+          </div>
+
+
+          <div class="col-lg-6 col-xs-12 col-sm-6">
+            <label>İngilizce Tez Başlığı</label>
+            <div class="form-group">
+
+              <textarea style="max-width: 550px; max-height: 100px; min-width: 550px; min-height: 100px;"
+                class="form-control" placeholder="sdfsdf" rows="5">
+
+         </textarea>
+            </div>
+          </div>
+
+
+          <div class="col-lg-6 col-xs-12 col-sm-6">
+            <label>Anahtar Kelimeler</label>
+            <div class="form-group">
+
+              <textarea style="max-width: 550px; max-height: 100px; min-width: 550px; min-height: 100px;"
+                class="form-control" placeholder="sdfsdf" rows="5">
+
+         </textarea>
+            </div>
+          </div>
+
+
+          <div class="col-lg-offset-0 col-lg-3 col-xs-12 col-sm-12">
+            <div class="form-group">
+              <label for="Gender" class="select">Tez Yazım Dili</label>
+              <select class="form-control">
+                <option>Tez Yazım Dili</option>
+                <option>Türkçe</option>
+                <option>Ingilizce</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="col-lg-offset-0 col-lg-3 col-xs-12 col-sm-12">
+            <div class="form-group">
+              <label for="Gender" class="select">Çalışma Tarzı</label>
+              <select class="form-control">
+                <option>Çalışma Tarzı</option>
+                <option>Deneysel</option>
+                <option>Teorik</option>
+                <option>Simülasyon</option>
+                <option>Sistem/Araç/Yazılım Geliştirme</option>
+                <option>Saha Analizi</option>
+              </select>
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-offset-0 col-lg-12 col-xs-12">
+            <div>
+              <label>Etik Kurul İzni: </label>
+              <input id="secim" type="radio" name="secim" value="Gerekmiyor">
+              <label for="Gerekmiyor">Gerekmiyor</label>
+              <span  style="margin-left: 15px;"> </span>
+              <input  type="radio" name="secim" value="Belge Var">
+              <label for="Belge Var">Belge Var</label><br>
+            </div>
+          </div>
+
+
+          <div class="col-lg-offset-0 col-lg-12 col-xs-12">
+            <div>
+              <label>Veri Kullanımı İzni: </label>
+              <input id="secim" type="radio" name="secim" value="Gerekmiyor">
+              <label for="Gerekmiyor">Gerekmiyor</label>
+              <span style="margin-left: 15px;"> </span>
+              <input type="radio" name="secim" value="Belge Var">
+              <label for="Belge Var">Belge Var</label><br>
+
+            </div>
+          </div>
+
+          <div class="col-lg-offset-0 col-lg-12 col-xs-12">
+            <div>
+              <label>Kurum/Kuruluş İzni: </label>
+              <input id="secim" type="radio" name="secim" value="Gerekmiyor">
+              <label for="Gerekmiyor">Gerekmiyor</label>
+              <span style="margin-left: 15px;"> </span>
+              <input type="radio" name="secim" value="Belge Var">
+              <label for="Belge Var">Belge Var</label><br>
+
+            </div>
+          </div>
+
+          <div class="col-lg-offset-0 col-lg-12 col-xs-12">
+            <div>
+              <label>Fikir Hak Sahipliği Beyanı: </label>
+              <input type="radio" name="secim" value="Gerekmiyor">
+              <label for="Gerekmiyor">Gerekmiyor</label>
+              <span style="margin-left: 15px;"> </span>
+              <input type="radio" name="secim" value="Belge Var">
+              <label for="Belge Var">Belge Var</label><br>
+
+            </div>
+          </div>
+
+          <!--
+
+        <div class="col-lg-offset-0 col-lg-6 col-xs-12 col-sm-12">
+          <div class="form-group">
+            <label for="Gender" class="select">Does the claimant have a Social Security Number?</label>
+            <select class="form-control">
+                <option>Yes</option>
+                <option>No</option> 
+              </select>
+          </div>
+        </div>
+
+        <div class="col-lg-offset-0 col-lg-3 col-xs-12 col-sm-6">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Social Security #</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="SS#">
+          </div>
+        </div>
+
+        <div class="col-lg-offset-0 col-lg-3 col-xs-12 col-sm-6">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Date of Birth</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Date of Birth">
+          </div>
+        </div>
+
+        <div class="col-lg-offset-0 col-lg-6 col-xs-12">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Mailing Address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Street Number and Name or P.O. Box">
+          </div>
+        </div>
+
+        <div class="col-lg-offset-0 col-lg-6 col-xs-12 col-sm-12">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Address 2</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Apartment or Unit #">
+          </div>
+        </div>
+
+        <div class="col-lg-offset-0 col-lg-4 col-xs-12 col-sm-6">
+          <div class="form-group">
+            <label for="exampleInputEmail1">City</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Sacramento">
+          </div>
+        </div>
+
+        <div class="col-lg-offset-0 col-lg-2 col-xs-12 col-sm-6">
+          <div class="form-group">
+            <label for="exampleInputEmail1">State</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="CA">
+          </div>
+        </div>
+
+        <div class="col-lg-offset-0 col-lg-6 col-xs-12 col-sm-6">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Zip</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="95822">
+          </div>
+        </div>
+
+        <div class="col-lg-offset-0 col-lg-6 col-xs-12 col-sm-6">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Home Telephone</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="(916) 345-6783">
+          </div>
+        </div>
+
+        <div class="col-lg-offset-0 col-lg-6 col-xs-12 col-sm-6">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Work Telephone</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="(916) 345-0000 x123">
+          </div>
+        </div>
+
+        <div class="col-lg-offset-0 col-lg-6 col-xs-12 col-sm-6">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Cell Phone</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="(916) 345-2345">
+          </div>
+        </div>
+
+        <div class="col-lg-offset-0 col-lg-4 col-xs-12 col-sm-6">
+          <div class="form-group">
+            <label for="exampleInputEmail1">E-Mail</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="andrey@mylife.com">
+          </div>
+        </div>
+
+        <div class="col-lg-offset-0 col-lg-2 col-xs-12 col-sm-6">
+          <div class="form-group">
+            <label for="Gender" class="select">E-Mail Type</label>
+            <select class="form-control">
+                <option>Personal</option>
+                <option>Work</option> 
+              </select>
+          </div>
+        </div>
+
+        <div class="col-lg-offset-0 col-lg-12 col-xs-12">
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="">
+              From the date of the crime to now, has the claimant been in prison, on probation, on parole or post-release community supervision because of a felony? </label>
+          </div>
+        </div>
+
+        <div class="col-lg-offset-0 col-lg-12 col-xs-12">
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="">
+              Is the claimant required to register as a sex offender?
+            </label>
+          </div>
+        </div>
+      
+
+      
+        <div class="bg-warning col-lg-offset-0 col-lg-12 col-xs-12">
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="">
+              Check This Box if You Are a Parent/Guardian Applying on Behalf of a Minor Witness to Violent Crime. Minor witnesses are eligible for mental health treatment only. Claimant is under age 18, a witness in close proximity to a violent crime, but is neither the crime victim nor related to the victim. Provide available victim, crime or other information in remaining sections. 
+            </label>
+          </div>
+        </div>
+        
+        <div class="col-lg-offset-0 col-lg-12 col-xs-12"> 
+          <br><br>
+            <span class="glyphicon glyphicon-info-sign"></span>               
+              If you are an adult victim and the expenses are for you, skip to <a href="vcp-application-4.html">Section 4</a>. If not, Continue to Section 2
+        </div>
+      
+      </div>
+      
+      <hr>
+    -->
+
+
+
+          <div class="pull-right">
+            <a href="vcp-application-2.html" role="button" class="btn btn-primary btn-large">Next</a>
+          </div>
+      </form>
+
+    </div> <!-- /Main Content -->
+    <br />
+    <br />
+  </div>
+
+
+
+
+  <!-- partial -->
+  <script src='https://code.jquery.com/jquery-3.1.1.min.js'></script>
+  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
